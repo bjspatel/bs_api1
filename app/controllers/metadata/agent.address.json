@@ -1,0 +1,8 @@
+{
+    "addressId":        { "dbName": "id",           "checkit-rules":["integer"], "isIdentifier": true },
+    "agentAddress":     { "dbName": "address",      "checkit-rules":["string", "required"] },
+    "agentCity":        { "dbName": "city",         "checkit-rules":["string"] },
+    "agentZipCode":     { "dbName": "zip_code",     "checkit-rules":["string"] },
+    "agentCountry":     { "dbName": "country",      "checkit-rules":["string"] },
+    "agentStateProv":   { "dbName": "state_prov",   "checkit-rules":["string"] }
+}

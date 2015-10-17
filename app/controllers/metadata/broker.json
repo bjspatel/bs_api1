@@ -1,0 +1,11 @@
+{
+    "brokerId":                 { "dbName": "id",                   "checkit-rules": ["integer"], "isIdentifier": true },
+    "brokerEmail":              { "dbName": "email",                "checkit-rules": ["string", "required"], "isIdentifier": true },
+    "userEmail":                { "dbName": "email",                "checkit-rules": ["string", "email", "required"], "isIdentifier": true },
+    "brokerFName":              { "dbName": "first_name",           "checkit-rules": ["string"] },
+    "brokerLName":              { "dbName": "last_name",            "checkit-rules": ["string"] },
+    "brokerIsCompanyAddress":   { "dbName": "is_company_address",   "checkit-rules": ["integer"] },
+    "brokerCompanyId":          { "dbName": "company_id",           "checkit-rules": ["integer"] },
+    "brokerAddressId":          { "dbName": "address_id",           "checkit-rules": ["integer"] },
+    "brokerCreditCardId":       { "dbName": "credit_card_id",       "checkit-rules": ["integer"] }
+}

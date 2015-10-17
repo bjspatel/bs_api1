@@ -1,0 +1,10 @@
+{
+    "userId":       { "dbName": "id",           "checkit-rules": ["integer"], "isIdentifier": true },
+    "brokerId":     { "dbName": "reference_id", "checkit-rules": ["integer"] },
+    "agentId":      { "dbName": "reference_id", "checkit-rules": ["integer"] },
+    "userEmail":    { "dbName": "email",        "checkit-rules": ["string", "email", "required"], "isIdentifier": true },
+    "brokerEmail":  { "dbName": "email",        "checkit-rules": ["string", "email", "required"], "isIdentifier": true },
+    "agentEmail":   { "dbName": "email",        "checkit-rules": ["string", "email", "required"], "isIdentifier": true },
+    "userPassword": { "dbName": "password",     "checkit-rules": ["string"] },
+    "userType":     { "dbName": "type",         "checkit-rules": ["integer"] }
+}

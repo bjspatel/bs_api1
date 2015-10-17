@@ -1,0 +1,10 @@
+{
+    "companyId":        { "dbName": "id",           "checkit-rules": ["integer"], "isIdentifier": true },
+    "companyName":      { "dbName": "name",         "checkit-rules": ["string", "required"], "isIdentifier": true },
+    "addressId":        { "dbName": "address_id",   "checkit-rules": ["integer"] },
+    "companyPhone":     { "dbName": "phone",        "checkit-rules": ["string"] },
+    "companyFax":       { "dbName": "fax",          "checkit-rules": ["string"] },
+    "companyWebsite":   { "dbName": "website",      "checkit-rules": ["string"] },
+    "companyEmail":     { "dbName": "email",        "checkit-rules": ["string"] },
+    "companyTaxId":     { "dbName": "tax_id",       "checkit-rules": ["string"] }
+}

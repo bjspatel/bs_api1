@@ -1,0 +1,6 @@
+{
+    "onboardingPlanId":             { "dbName": "id",                       "checkit-rules":["integer"], "isIdentifier": true },
+    "onboardingPlanName":           { "dbName": "name",                     "checkit-rules":["string", "required"] },
+    "onboardingPlanIsTemplate":     { "dbName": "is_template",              "checkit-rules":["string"] },
+    "onboardingPlanComponentId":    { "dbName": "onboarding_component_id",  "checkit-rules":["string"] }
+}

@@ -1,0 +1,16 @@
+{
+    "agentId":                  { "dbName": "id",                   "checkit-rules": ["integer"], "isIdentifier": true },
+    "agentEmail":               { "dbName": "email",                "checkit-rules": ["string", "required"], "isIdentifier": true },
+    "userEmail":                { "dbName": "email",                "checkit-rules": ["string", "email", "required"], "isIdentifier": true },
+    "agentFName":               { "dbName": "first_name",           "checkit-rules": ["string"] },
+    "agentLName":               { "dbName": "last_name",            "checkit-rules": ["string"] },
+    "agentStartDate":           { "dbName": "start_date",           "checkit-rules": ["date"] },
+    "agentOfficeLocation":      { "dbName": "office_location",      "checkit-rules": ["string"] },
+    "agentStatus":              { "dbName": "status",               "checkit-rules": ["integer"] },
+    "agentCompanyId":           { "dbName": "company_id",           "checkit-rules": ["integer"] },
+    "agentIsCompanyAddress":    { "dbName": "is_company_address",   "checkit-rules": ["integer"] },
+    "agentAddressId":           { "dbName": "address_id",           "checkit-rules": ["integer"] },
+    "agentOnboardingPlanId":    { "dbName": "Oonboarding_plan_id",  "checkit-rules": ["integer"] },
+    "agentCreditCardId":        { "dbName": "credit_card_id",       "checkit-rules": ["integer"] },
+    "agentBankAccountId":       { "dbName": "bank_account_id",      "checkit-rules": ["integer"] }
+}

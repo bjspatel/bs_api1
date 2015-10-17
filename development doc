@@ -1,0 +1,7 @@
+BSModel - DB interface, and produces DataObjects
+
+EntityController - uses BSModel and JSON to manipulate DataObjects
+
+DataObjects - store DB data
+
+JSON - MetaData of DataObjects

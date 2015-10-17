@@ -1,0 +1,8 @@
+{
+    "addressId":        { "dbName": "id",           "checkit-rules":["integer"], "isIdentifier": true },
+    "brokerAddress":    { "dbName": "address",      "checkit-rules":["string", "required"] },
+    "brokerCity":       { "dbName": "city",         "checkit-rules":["string"] },
+    "brokerZipCode":    { "dbName": "zip_code",     "checkit-rules":["string"] },
+    "brokerCountry":    { "dbName": "country",      "checkit-rules":["string"] },
+    "brokerStateProv":  { "dbName": "state_prov",   "checkit-rules":["string"] }
+}

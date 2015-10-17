@@ -1,0 +1,8 @@
+{
+    "addressId":        { "dbName": "id",           "checkit-rules":["integer"], "isIdentifier": true },
+    "companyAddress":   { "dbName": "address",      "checkit-rules":["string", "required"] },
+    "companyCity":      { "dbName": "city",         "checkit-rules":["string"] },
+    "companyZipCode":   { "dbName": "zip_code",     "checkit-rules":["string"] },
+    "companyCountry":   { "dbName": "country",      "checkit-rules":["string"] },
+    "companyStateProv": { "dbName": "state_prov",   "checkit-rules":["string"] }
+}
