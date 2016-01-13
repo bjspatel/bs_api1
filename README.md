@@ -1,4 +1,4 @@
-## APIs Quick Look
+## APIs Lookup
 
 | Method |                  URL                 |                Task             |
 |:------:|:------------------------------------:|:-------------------------------:|
@@ -22,12 +22,20 @@
 
 ## 1
 #### /api/v1/users
+
 _Action_: Gets all users
+
 _Input_:
+
 Header: token
+
 Optional Params: email, id, created-at-from, created-at-to, updated-at-from, updated-at-to, last-active-at-from, last-active-at-to, role, status
+
 _Action_: Return a collection of users, without passwords that match the optional query params, if any
+
 _Example_: /users?email=test@example.com&id=123456
+
 _Errors_: (400) If any param other than the ones provided are used
 
-[Top](#APIs Quick Look)
+
+[Top](#apis-lookup)
