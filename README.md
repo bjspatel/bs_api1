@@ -111,7 +111,7 @@
   </tr>
 </table>
 ## 1
-### [GET] /api/v1/users
+### GET - /api/v1/users
 
 _Action_: Gets all users
 
