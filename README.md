@@ -1,25 +1,115 @@
 ## APIs Lookup
 
-| Method |                  URL                 |                Task             |
-|--------|--------------------------------------|---------------------------------|
-| GET    | [/api/v1/users](#1)                  | Gets all users                  |
-| POST   | /api/v1/users/create                 | Creates a new user              |
-| GET    | /api/v1/users/confirm-account/:token | Activate the user               |
-| PUT    | /api/v1/users/reset-password-request | Send reset password access link |
-| GET    | /api/v1/users/reset-password/:token  | Opens the reset password form   |
-| PUT    | /api/v1/users/reset-password         | Resets the password             |
-| POST   | /api/v1/users/login                  | Login the user                  |
-| PUT    | /api/v1/users/update                 | Update the user                 |
-| GET    | /api/v1/games                        | Get all games                   |
-| POST   | /api/v1/games/create                 | Create a new game               |
-| PUT    | /api/v1/games/update                 | Update a game                   |
-|        |                                      |                                 |
-|        |                                      |                                 |
-|        |                                      |                                 |
-|        |                                      |                                 |
-|        |                                      |                                 |
-|        |                                      |                                 |
-
+<table>
+  <tr>
+    <th></th>
+    <th>Method</th>
+    <th>URL</th>
+    <th>Action</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>GET</td>
+    <td>[/api/v1/users](#1)</td>
+    <td>Gets all users</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>POST</td>
+    <td>/api/v1/users/create</td>
+    <td>Creates a new user</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>GET</td>
+    <td>/api/v1/users/confirm-account/:token</td>
+    <td>Activate the user</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>PUT</td>
+    <td>/api/v1/users/reset-password-request</td>
+    <td>Send reset password access link</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>GET</td>
+    <td>/api/v1/users/reset-password/:token</td>
+    <td>Opens the reset password form</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>PUT</td>
+    <td>/api/v1/users/reset-password</td>
+    <td>Resets the password</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>POST</td>
+    <td>/api/v1/users/login</td>
+    <td>Login the user</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>PUT</td>
+    <td>/api/v1/users/update</td>
+    <td>Update the user</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>GET</td>
+    <td>/api/v1/games</td>
+    <td>Get all games</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>POST</td>
+    <td>/api/v1/games/create</td>
+    <td>Create a new game</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>PUT</td>
+    <td>/api/v1/games/update</td>
+    <td>Update a game</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 ## 1
 #### /api/v1/users
 
