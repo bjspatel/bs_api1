@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th></th>
+    <th>Sr No</th>
     <th>Method</th>
     <th>URL</th>
     <th>Action</th>
