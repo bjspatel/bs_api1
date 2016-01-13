@@ -1,6 +1,6 @@
 | Method |                  URL                 |              Action             |
 |:------:|:------------------------------------:|:-------------------------------:|
-| GET    | [/api/v1/users](#/api/v1/users)      | Gets all users                  |
+| GET    | [/api/v1/users](#1)                  | Gets all users                  |
 | POST   | /api/v1/users/create                 | Creates a new user              |
 | GET    | /api/v1/users/confirm-account/:token | Activate the user               |
 | PUT    | /api/v1/users/reset-password-request | Send reset password access link |
@@ -18,4 +18,4 @@
 |        |                                      |                                 |
 |        |                                      |                                 |
 
-## /api/v1/users
+## 1
