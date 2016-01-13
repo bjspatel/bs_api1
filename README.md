@@ -11,10 +11,12 @@
     <td colspan="4"><b>Users</b></td>
   </tr>
   <tr>
+    <a href="#get-apiv1users">
     <td>1</td>
     <td>GET</td>
-    <td><a href="#get-apiv1users">/api/v1/users</a></td>
+    <td>/api/v1/users</td>
     <td>Gets all users</td>
+    </a>
   </tr>
   <tr>
     <td>2</td>
