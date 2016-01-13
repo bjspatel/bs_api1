@@ -10,7 +10,7 @@
   <tr>
     <td>1</td>
     <td>GET</td>
-    <td><a href="#1">/api/v1/users</a></td>
+    <td><a href="#get-apiv1users">/api/v1/users</a></td>
     <td>Gets all users</td>
   </tr>
   <tr>
@@ -111,7 +111,7 @@
   </tr>
 </table>
 ## 1
-### /api/v1/users
+### [GET] /api/v1/users
 
 _Action_: Gets all users
 
