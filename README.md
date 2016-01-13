@@ -1,7 +1,7 @@
 ## APIs Lookup
 
 | Method |                  URL                 |                Task             |
-|:------:|:------------------------------------:|:-------------------------------:|
+|--------|--------------------------------------|---------------------------------|
 | GET    | [/api/v1/users](#1)                  | Gets all users                  |
 | POST   | /api/v1/users/create                 | Creates a new user              |
 | GET    | /api/v1/users/confirm-account/:token | Activate the user               |
@@ -39,3 +39,15 @@ _Errors_: (400) If any param other than the ones provided are used
 
 
 [Top](#apis-lookup)
+
+
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
