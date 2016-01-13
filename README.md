@@ -8,6 +8,9 @@
     <th>Action</th>
   </tr>
   <tr>
+    <td colspan="4"><b>Users</b></td>
+  </tr>
+  <tr>
     <td>1</td>
     <td>GET</td>
     <td><a href="#get-apiv1users">/api/v1/users</a></td>
@@ -54,6 +57,9 @@
     <td>PUT</td>
     <td>/api/v1/users/update</td>
     <td>Update the user</td>
+  </tr>
+  <tr>
+    <td colspan="4"><b>Games</b></td>
   </tr>
   <tr>
     <td>9</td>
