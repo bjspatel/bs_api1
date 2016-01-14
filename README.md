@@ -13,7 +13,7 @@
   <tr>
     <td>1</td>
     <td>GET</td>
-    <td><a href="/get---apiv1users">/api/v1/users</a></td>
+    <td><a href="#get---apiv1users">/api/v1/users</a></td>
     <td>Gets all users</td>
   </tr>
   <tr>
