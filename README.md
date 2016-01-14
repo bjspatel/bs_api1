@@ -8,7 +8,7 @@
     <th>Action</th>
   </tr>
   <tr>
-    <td lign="center" colspan="4"><h4>Users</h4></td>
+    <td lign="center" colspan="4"><h5>Users</h5></td>
   </tr>
   <tr>
     <td>1</td>
@@ -59,7 +59,7 @@
     <td>Update the user</td>
   </tr>
   <tr>
-    <td lign="center" colspan="4"><h4>Games</h4></td>
+    <td lign="center" colspan="4"><h5>Games</h5></td>
   </tr>
   <tr>
     <td>9</td>
@@ -80,7 +80,7 @@
     <td>Update a game</td>
   </tr>
   <tr>
-    <td lign="center" colspan="4"><h4>Credits</h4></td>
+    <td lign="center" colspan="4"><h5>Credits</h5></td>
   </tr>
   <tr>
     <td>12</td>
@@ -101,7 +101,7 @@
     <td>Get user transactions</td>
   </tr>
   <tr>
-    <td lign="center" colspan="4"><h4>Tournaments</h4></td>
+    <td lign="center" colspan="4"><h5>Tournaments</h5></td>
   </tr>
   <tr>
     <td>15</td>
@@ -123,31 +123,31 @@
 
 ### GET - /api/v1/users
 
-_Action_: Gets all users
+_Action_**: Gets all users
 
-_Input_:
+_Input_**:
 
-Header: token
+Header:
+* token
 
-Optional Params: email, id, created-at-from, created-at-to, updated-at-from, updated-at-to, last-active-at-from, last-active-at-to, role, status
+Optional Params:
+* email
+* id
+* created-at-from
+* created-at-to
+* updated-at-from
+* updated-at-to
+* last-active-at-from
+* last-active-at-to
+* role
+* status
 
-_Action_: Return a collection of users, without passwords that match the optional query params, if any
+_Action_**: Return a collection of users, without passwords that match the optional query params, if any
 
-_Example_: /users?email=test@example.com&id=123456
+_Example_**: /users?email=test@example.com&id=123456
 
-_Errors_: (400) If any param other than the ones provided are used
+_Errors_**: (400) If any param other than the ones provided are used
 
 
 [Top](#apis-lookup)
-
-
-<table>
-  <tr>
-    <td>One</td>
-    <td>Two</td>
-  </tr>
-  <tr>
-    <td colspan="2">Three</td>
-  </tr>
-</table>
 
