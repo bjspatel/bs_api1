@@ -2,21 +2,19 @@
 
 <table>
   <tr>
-    <th>Sr No</th>
+    <th></th>
     <th>Method</th>
     <th>URL</th>
     <th>Action</th>
   </tr>
   <tr>
-    <td colspan="4"><b>Users</b></td>
+    <td lign="center" colspan="4"><h4>Users</h4></td>
   </tr>
   <tr>
-    <a href="#get-apiv1users">
     <td>1</td>
     <td>GET</td>
-    <td>/api/v1/users</td>
+    <td><a href="/GET---apiv1users">/api/v1/users</a></td>
     <td>Gets all users</td>
-    </a>
   </tr>
   <tr>
     <td>2</td>
@@ -61,7 +59,7 @@
     <td>Update the user</td>
   </tr>
   <tr>
-    <td colspan="4"><b>Games</b></td>
+    <td lign="center" colspan="4"><h4>Games</h4></td>
   </tr>
   <tr>
     <td>9</td>
@@ -82,43 +80,47 @@
     <td>Update a game</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td lign="center" colspan="4"><h4>Credits</h4></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>12</td>
+    <td>GET</td>
+    <td>/api/v1/credits</td>
+    <td>Get logged-in user credits</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>13</td>
+    <td>POST</td>
+    <td>/api/v1/credits/store</td>
+    <td>Get available credit-bundles for purchase</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>14</td>
+    <td>GET</td>
+    <td>/api/v1/credit/history</td>
+    <td>Get user transactions</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td lign="center" colspan="4"><h4>Tournaments</h4></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>15</td>
+    <td>GET</td>
+    <td>/api/v1/tournament</td>
+    <td>Get tournaments</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>POST</td>
+    <td>/api/v1/tournament/create</td>
+    <td>Create tournament</td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
   </tr>
 </table>
-## 1
+
+
 ### GET - /api/v1/users
 
 _Action_: Gets all users
