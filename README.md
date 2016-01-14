@@ -123,9 +123,9 @@
 
 ### GET - /api/v1/users
 
-_Action_**: Gets all users
+**_Action_**: Gets all users
 
-_Input_**:
+**_Input_**:
 
 Header:
 * token
@@ -142,11 +142,11 @@ Optional Params:
 * role
 * status
 
-_Action_**: Return a collection of users, without passwords that match the optional query params, if any
+**_Action_**: Return a collection of users, without passwords that match the optional query params, if any
 
-_Example_**: /users?email=test@example.com&id=123456
+**_Example_**: /users?email=test@example.com&id=123456
 
-_Errors_**: (400) If any param other than the ones provided are used
+**_Errors_**: (400) If any param other than the ones provided are used
 
 
 [Top](#apis-lookup)
